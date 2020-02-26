@@ -14,7 +14,7 @@ def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i=0
   while i<cheese_types.length
-    if foods.include{|foods| food == cheese_types[i]}
+    if foods.include?{|foods| food == cheese_types[i]}
     else nil 
     end
     i+=1
