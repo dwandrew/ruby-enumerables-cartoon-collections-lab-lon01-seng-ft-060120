@@ -6,8 +6,8 @@ def summon_captain_planet(veggies)
   veggies.collect {|veg| veg.capitalize! + '!'}
 end
 
-def long_planeteer_calls()
-  
+def long_planeteer_calls(calls)
+  calls.
 end
 
 def find_the_cheese# code an argument here
